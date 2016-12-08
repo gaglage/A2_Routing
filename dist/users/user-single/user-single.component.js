@@ -28,10 +28,9 @@ var UserSingleComponent = (function () {
         core_1.Component({
             templateUrl: './app/users/user-single/user-single.component.html'
         }), 
-        __metadata('design:paramtypes', [(typeof (_a = typeof router_1.ActivatedRoute !== 'undefined' && router_1.ActivatedRoute) === 'function' && _a) || Object, user_service_1.UserService])
+        __metadata('design:paramtypes', [router_1.ActivatedRoute, user_service_1.UserService])
     ], UserSingleComponent);
     return UserSingleComponent;
-    var _a;
 }());
 exports.UserSingleComponent = UserSingleComponent;
 //# sourceMappingURL=user-single.component.js.map
