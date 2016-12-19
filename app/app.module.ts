@@ -3,6 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 import { routing } from './app.routing';
+import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './home/home.component';
+import { ContactComponent } from './contact/contact.component';
 import { AppComponent } from './app.component';
 
 import { UserService } from './shared/services/user.service';
@@ -24,6 +27,9 @@ import 'rxjs/add/operator/catch';
   declarations: [ 
     AppComponent,
     UsersComponent,
+    HomeComponent,
+    AboutComponent,
+    ContactComponent,
     UserListComponent,
     UserSingleComponent
   ],
